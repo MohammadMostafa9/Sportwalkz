@@ -1,0 +1,93 @@
+<!DOCTYPE 
+<head>
+   <meta name="description" content="Sportwalkz ist eine Shop fuer Sportkleidung und Zubehoer"/>
+   <meta name="keywords" content="Shop, kleidung"/>
+   <meta name="author" content="Ihren Namen"/>
+   <meta name="robots" content="index,follow"/>
+   <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+   <meta http-equiv="content-language" content="de" />
+   <meta http-equiv="expires" content="0" />
+   <meta http-equiv="cache-control" content="no-cache" />
+   <meta http-equiv="pragma" content="no-cache" />
+   <title>Sportwalkz - Startseite</title>
+   <link rel="stylesheet" href="cssfile.css">
+   <script src="register.js"></script>
+</head>
+<body id="Login">
+<div id="wrapper">
+   <h1>Sportwalkz</h1>
+ 
+   
+
+
+
+   
+
+</head>
+<body id="startseite">
+<div id="wrapper">
+</div>
+   <div style="display: flex; align-items: center; justify-content: space-between; background-color: #80004a;"> <p1 >.</p1></div>
+   
+   <div id="kopfbereich">
+      <h1> Login </h1>
+      
+</div> <!-- Ende kopfbereich -->
+
+<div id="navibereich">
+   <ul>
+      <li id="navi01"><a href="index.html">Startseite</a></li>
+      <li id="navi02"><a href="Herren.html" title="Zu unseren Herren Produkten">Herren</a></li>
+      <li id="navi03"><a href="Damen.html" title="Zu unseren Damen Produkten">Damen</a></li>
+      <li id="navi04"><a href="Angebote.html" title="Zu unseren Angebote">Angebote</a></li>
+      <li id="navi05"><a href="login.html" title="Zum geschuetzten Bereich">Login</a></li>
+      <li id="navi06"><a href="agb.html" title="Zu den AGBs">AGB</a></li>
+   </ul>
+</div> <!-- Ende navibereich -->
+
+
+<div id="textbereich">
+   <p>Bei Anmelden Bitte Hier Klicken <span onclick="toggleForm('loginForm')" style="cursor: pointer; color: #80004a; text-decoration: underline;">ANMELDEN</span>.</p>
+   <p>Oder zu Registieren Bitte hier klicken <span onclick="toggleForm('registrationForm')" style="cursor: pointer; color: #80004a; text-decoration: underline;">REGISTIEREN</span>.</p>
+
+   <!-- Login Form -->
+   <div id="loginForm" style="display: none;">
+       <h2>Anmelden</h2>
+       <form onsubmit="return login()">
+           <label for="username">Username:</label>
+           <input type="text" id="username" name="username" required />
+           <br />
+           <label for="password">Password:</label>
+           <input type="password" id="password" name="password" required />
+           <br />
+           <input type="submit" value="Login" />
+       </form>
+   </div>
+
+   <!-- Registration Form -->
+   <div id="registrationForm" style="display: none;">
+       <h2>Registieren</h2>
+       <form onsubmit="return register()">
+           <label for="newUsername">New Username:</label>
+           <input type="text" id="newUsername" name="newUsername" required />
+           <br />
+           <label for="newPassword">New Password:</label>
+           <input type="password" id="newPassword" name="newPassword" required />
+           <br />
+           <input type="submit" value="Register" />
+       </form>
+   </div>
+
+</div>
+   
+   <div id="fussbereich">
+      <address>
+         Sportwalkz &middot; Pfahlerstr. 5 &middot; 66117 Saarbrueken
+         <br />
+         Tel: 0132323232 &middot; Fax: 0132323222 &middot; WebSite: Sportwalkz.de 
+         </address>
+   </div> <!-- Ende fussbereich -->
+   
+   </div> <!-- Ende wrapper -->
+   </body>
+   </html>

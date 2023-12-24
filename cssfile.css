@@ -1,0 +1,108 @@
+body { 
+    background: #cacaca;
+    color: #000000;; 
+    font: normal 1em arial, sans-serif;
+  
+ }
+
+ h1
+{font: normal 500% 'Freestyle Script', arial, sans-serif;
+  color: #111;
+  text-align: center; 
+ 
+}
+
+  h2 {
+    margin: 0 0 15px 10;
+  padding: 0px 0 5px 0;
+  font: normal 100% 'arial', arial, sans-serif;
+  color: #444;}
+
+  address {
+    text-align: center;  
+    font-size: 80%;      
+    font-style: normal;  
+    letter-spacing: 2px; 
+    line-height: 1.5em;  
+ }
+ 
+ a { text-decoration: none; outline: none;} 
+a:link { color: #ffffff; } 
+a:visited { color: #ffffff; }
+a:hover, 
+a:focus { 
+  border-bottom: 1px solid #742d2d
+}
+a:active { 
+   color: white; 
+   background-color: #ffffff; 
+}
+
+h3{
+
+    margin: 0 0 15px 0;
+    padding: 0px 0 5px 0;
+}
+#textbereich {
+    display: flex;
+    justify-content: center;
+    img { margin: 5px;max-width: 100%; height: auto;}
+    
+}
+#loginform {
+   text-align: right;  
+   font-size: 80%;      
+   font-style: normal;  
+   letter-spacing: 2px; 
+   line-height: 1.5em;
+   display: flex;
+    justify-content: right;
+
+}
+
+#registrationForm {
+   text-align: right;  
+   font-size: 80%;      
+   font-style: normal;  
+   letter-spacing: 2px; 
+   line-height: 1.5em;
+   display: flex;
+    justify-content: right;
+
+}
+
+
+
+
+#navibereich { 
+    width: 1800px;
+    height: 50px;
+    padding: 8px 0 0 0;
+    margin: 10px 10px 0 0;
+    position: relative;
+    z-index: 1;
+    float: center;
+    text-align: center;  /* rechtsb�ndig */
+    color: white;
+    background: rgba(0,0,0,0);
+    font: normal 125% 'josefin sans';
+  } 
+  
+  
+  #navibereich ul { 
+     margin-bottom: 0; 
+  } 
+  
+  #navibereich li { 
+     display: inline; 
+     list-style-type: none; 
+     margin: 0; /* war vorher 10px f�r rechts */ 
+  }
+  
+  #navibereich a { 
+     color: rgb(39, 33, 33); 
+     background-color: rgba(0,0,0,0);
+     padding: 4px 4px 4px 8px; 
+  }
+  
+  
